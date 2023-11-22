@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjust this value to your desired width */
+    max-width: 600px; /* Optionally, set a maximum width to prevent it from becoming too wide */
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .important {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .completed span {
+    text-decoration: line-through;
+  }
+  
+
+
+  /* ... your existing CSS ... */
+.category {
+    font-style: italic;
+    margin-left: 10px;
+    color: #666; /* Adjust the color to your preference */
+  }
+  
